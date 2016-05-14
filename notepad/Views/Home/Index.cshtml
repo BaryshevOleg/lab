@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<input  id="Name"/>
+<button id="InputBtn"> Добавить  запись </button>
+<div id="collectionbtn"></div>
+<img id="img"/>
+<textarea id="Area"></textarea> 
+<button id="SaveBtn"> Сохранить запись </button>
+
+<script type="text/javascript">
+    var Name = "";
+    if('@ViewBag.name' != null)
+    {
+        Name = '@ViewBag.name';
+    }
+</script>
